@@ -21,10 +21,10 @@ server {
 	#
 	# include snippets/snakeoil.conf;
 
-	root /home/boxx/Projects/example.dev/www;
+	root /home/pressboxx/Projects/example.dev/www;
 
-	access_log /home/boxx/Projects/example.dev/log/nginx/access.log combined;
-	error_log  /home/boxx/Projects/example.dev/log/nginx/error.log notice;	
+	access_log /home/pressboxx/Projects/example.dev/log/nginx/access.log combined;
+	error_log  /home/pressboxx/Projects/example.dev/log/nginx/error.log notice;	
 	
 	index index.php index.html index.htm;
 

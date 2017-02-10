@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-source "/home/boxx/Config/includes/constants.sh"
-source "/home/boxx/Config/includes/functions.sh"
+source "/home/pressboxx/Config/includes/constants.sh"
+source "/home/pressboxx/Config/includes/functions.sh"
 
 GROUP_ID=$(id -g www-data)
-sshfs -p22 -o Compression=no,follow_symlinks,allow_other,uid=${UID},gid=${GROUP_ID} ${HOST_IP}:Sites /boxx/sites
+sshfs -p22 -o Compression=no,follow_symlinks,allow_other,uid=${UID},gid=${GROUP_ID} ${HOST_IP}:Sites /pressboxx/sites

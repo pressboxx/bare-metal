@@ -2,7 +2,7 @@
 Before=mysql.service
 
 [Service]
-ExecStart=/home/boxx/Startup/boxx.sh
+ExecStart=/home/pressboxx/Config/boxx.sh
 
 [Install]
 WantedBy=default.target

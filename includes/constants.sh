@@ -1,8 +1,9 @@
-export BOXX_USER=boxx
+export BOXX_USER=pressboxx
 export BOXX_ROOT="/home/{$BOXX_USER}"
+export BOXX_DATA_DIR="/home/${BOXX_USER}/Data"
 export BOXX_CONFIG_DIR="/home/${BOXX_USER}/Config"
-export BOXX_INSTALL_FILES_DIR="${CONFIG_DIR}/files"
-export BOXX_STEP_FILE="${CONFIG_DIR}/INSTALL-STEP"
+export BOXX_INSTALL_FILES_DIR="${BOXX_CONFIG_DIR}/files"
+export BOXX_STEP_FILE="${BOXX_CONFIG_DIR}/INSTALL-STEP"
 export BOXX_HOST_IP=$(cat "${BOXX_ROOT}/Startup/HOST_IP")
 export BOXX_PROJECTS_ROOT="${BOXX_ROOT}/Projects"
 export BOXX_COMMAND_ROOT="${BOXX_ROOT}/Command"

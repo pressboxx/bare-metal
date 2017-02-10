@@ -17,6 +17,7 @@ function setup_default_directories {
 	mkdir ~/App/log
 	mkdir ~/Projects
 	mkdir ~/Config
+	mkdir ~/Storage
 	sudo chown -R "$BOXX_USER":www-data ~/App
 	chownsudo  -R "$BOXX_USER":www-data ~/Projects
 	echo Hello PressBoxx User! > ~/App/www/index.html	
