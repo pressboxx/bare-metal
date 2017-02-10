@@ -1,0 +1,8 @@
+[Unit]
+Before=mysql.service
+
+[Service]
+ExecStart=/home/boxx/Startup/boxx.sh
+
+[Install]
+WantedBy=default.target

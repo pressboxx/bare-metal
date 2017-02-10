@@ -1,0 +1,11 @@
+/run
+/dev
+/tmp
+/proc
+/mnt
+/sys/
+/var/cache
+/var/lock
+/var/tmp
+/var/run
+/var/log
